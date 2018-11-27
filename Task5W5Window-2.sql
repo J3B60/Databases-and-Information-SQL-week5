@@ -1,3 +1,3 @@
 SELECT * FROM newemp;
 
---See no rows because no commit
+--See rows because its because of commit

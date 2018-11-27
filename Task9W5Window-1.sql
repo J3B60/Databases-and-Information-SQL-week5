@@ -1,0 +1,6 @@
+--ROLLBACK;
+--COMMIT;
+BEGIN TRANSACTION; 
+UPDATE newemp SET sal = sal+100 WHERE ename = 'SCOTT';
+--COMMIT;
+SELECT * FROM emp;

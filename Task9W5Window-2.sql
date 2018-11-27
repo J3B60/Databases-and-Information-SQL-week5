@@ -1,0 +1,7 @@
+ROLLBACK;
+BEGIN TRANSACTION;
+DROP TABLE newemp;
+--COMMIT;
+--SELECT * FROM newemp;
+
+--Hangs

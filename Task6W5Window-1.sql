@@ -1,0 +1,5 @@
+--ROLLBACK;
+--BEGIN TRANSACTION; 
+--UPDATE newemp SET comm = 800 WHERE ename = 'ALLEN';
+COMMIT;
+SELECT * FROM newemp;
